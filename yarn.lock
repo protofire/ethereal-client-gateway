@@ -2004,12 +2004,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@keyv/serialize@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@keyv/serialize@npm:1.0.3"
-  dependencies:
-    buffer: "npm:^6.0.3"
-  checksum: 10/d6a9194dd781bc26cc4d55f392d843810c1fdc0da81e69203e633cb289fc0a8edc8bc6466f66c4cbb55da0a5b405e89f14a68b48d6e73919ae82f8249fb5e444
+"@keyv/serialize@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@keyv/serialize@npm:1.1.0"
+  checksum: 10/73b88b69e07847b67d443efcd4949955aa7ac0f998f68e6cfe9053307c1ea3caeabe3f6f1c6a99b1b32bb9a6698c8a5c452f96246fe77d98f1cba0c2faae4616
   languageName: node
   linkType: hard
 
@@ -4696,12 +4694,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cache-manager@npm:6.4.1":
-  version: 6.4.1
-  resolution: "cache-manager@npm:6.4.1"
+"cache-manager@npm:7.1.0":
+  version: 7.1.0
+  resolution: "cache-manager@npm:7.1.0"
   dependencies:
-    keyv: "npm:^5.3.1"
-  checksum: 10/430e77aa1e5dd9f64c06cead05cf2ee5c9e9633401c1b57571a90d686a72b42d766d0ed867235fa5d2c7b0b03a993c955fa733d50e24c3ebdb9ac50f8f4cc795
+    keyv: "npm:^5.3.4"
+  checksum: 10/4be4fbabcb2c030bc277b92a82ef9892f7da14a4c7c8f7a8664ed646bea8e356448654d7e63174e7229a6473127f758be32b22a093eb9f566f92f8d886dc4fb4
   languageName: node
   linkType: hard
 
@@ -7529,12 +7527,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"keyv@npm:^5.3.1":
-  version: 5.3.2
-  resolution: "keyv@npm:5.3.2"
+"keyv@npm:^5.3.4":
+  version: 5.5.0
+  resolution: "keyv@npm:5.5.0"
   dependencies:
-    "@keyv/serialize": "npm:^1.0.3"
-  checksum: 10/2f48a2dea4bb82bfedede30697d1fca290d046a3cd5399446f2dd2965e0d09f8d2407670650325199f44d356872367603728ae3c1206e0ed7cd1967cb72e34ee
+    "@keyv/serialize": "npm:^1.1.0"
+  checksum: 10/577dc09d8972669a331009c9b1f9e9da8d9090908377208e1b1583e38ce8d2de6f4999e83cd8a31f4bdcc258bd5973f1515bcee10f678a9b8aca378611ed9a65
   languageName: node
   linkType: hard
 
@@ -9170,7 +9168,7 @@ __metadata:
     amqplib: "npm:0.10.8"
     aws-sdk-client-mock: "npm:4.1.0"
     bullmq: "npm:^5.56.0"
-    cache-manager: "npm:6.4.1"
+    cache-manager: "npm:7.1.0"
     cookie-parser: "npm:1.4.7"
     csv-stringify: "npm:^6.5.2"
     eslint: "npm:9.22.0"
