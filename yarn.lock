@@ -1254,6 +1254,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cacheable/utils@npm:^2.0.1":
+  version: 2.0.2
+  resolution: "@cacheable/utils@npm:2.0.2"
+  checksum: 10/4e7e79b3dc9fe4891784419453dedf6bc5917c5a6714812eaaea7a3880b607c88bb71a9827e39c4c3b6bba5de725cae226bbfec48bbc4d7fb1ba5a21f8cfd582
+  languageName: node
+  linkType: hard
+
 "@colors/colors@npm:1.5.0":
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
@@ -2004,12 +2011,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@keyv/serialize@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@keyv/serialize@npm:1.0.3"
-  dependencies:
-    buffer: "npm:^6.0.3"
-  checksum: 10/d6a9194dd781bc26cc4d55f392d843810c1fdc0da81e69203e633cb289fc0a8edc8bc6466f66c4cbb55da0a5b405e89f14a68b48d6e73919ae82f8249fb5e444
+"@keyv/serialize@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@keyv/serialize@npm:1.1.1"
+  checksum: 10/e3b2cb1377863342acedd5ff785af3e69269bee9b44707c617d1c8bc14eeb5ac763159d6455903ffe92f143c2238e1e783c4f113f9c8910eacccf172894472da
   languageName: node
   linkType: hard
 
@@ -4696,12 +4701,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cache-manager@npm:6.4.1":
-  version: 6.4.1
-  resolution: "cache-manager@npm:6.4.1"
+"cache-manager@npm:7.2.2":
+  version: 7.2.2
+  resolution: "cache-manager@npm:7.2.2"
   dependencies:
-    keyv: "npm:^5.3.1"
-  checksum: 10/430e77aa1e5dd9f64c06cead05cf2ee5c9e9633401c1b57571a90d686a72b42d766d0ed867235fa5d2c7b0b03a993c955fa733d50e24c3ebdb9ac50f8f4cc795
+    "@cacheable/utils": "npm:^2.0.1"
+    keyv: "npm:^5.5.2"
+  checksum: 10/5b082423cfa5314fc0efae344c3e5784c026051d4b127c1fc1a44a541d07a6655ac033043870457a7e62aeebcaada97d6c82017eb47d2fdc2d9448b43578bb14
   languageName: node
   linkType: hard
 
@@ -7529,12 +7535,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"keyv@npm:^5.3.1":
-  version: 5.3.2
-  resolution: "keyv@npm:5.3.2"
+"keyv@npm:^5.5.2":
+  version: 5.5.3
+  resolution: "keyv@npm:5.5.3"
   dependencies:
-    "@keyv/serialize": "npm:^1.0.3"
-  checksum: 10/2f48a2dea4bb82bfedede30697d1fca290d046a3cd5399446f2dd2965e0d09f8d2407670650325199f44d356872367603728ae3c1206e0ed7cd1967cb72e34ee
+    "@keyv/serialize": "npm:^1.1.1"
+  checksum: 10/b8d2c354dade07cb4cb6ccffe6495c1a32a67cf9f066a9660eeaea974ab9d8b94dd568b4e71b23f217f587d3e07b558fa6e48158baea1a0bc9514bb15c1de555
   languageName: node
   linkType: hard
 
@@ -9170,7 +9176,7 @@ __metadata:
     amqplib: "npm:0.10.8"
     aws-sdk-client-mock: "npm:4.1.0"
     bullmq: "npm:^5.56.0"
-    cache-manager: "npm:6.4.1"
+    cache-manager: "npm:7.2.2"
     cookie-parser: "npm:1.4.7"
     csv-stringify: "npm:^6.5.2"
     eslint: "npm:9.22.0"
