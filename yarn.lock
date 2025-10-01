@@ -4645,9 +4645,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bullmq@npm:^5.56.0":
-  version: 5.56.0
-  resolution: "bullmq@npm:5.56.0"
+"bullmq@npm:^5.59.0":
+  version: 5.59.0
+  resolution: "bullmq@npm:5.59.0"
   dependencies:
     cron-parser: "npm:^4.9.0"
     ioredis: "npm:^5.4.1"
@@ -4655,8 +4655,8 @@ __metadata:
     node-abort-controller: "npm:^3.1.1"
     semver: "npm:^7.5.4"
     tslib: "npm:^2.0.0"
-    uuid: "npm:^9.0.0"
-  checksum: 10/7a009082a4d88804caeac703bbac9e9c82d6d67aec619ad4dd2b6fde3bc2a72d42d4ca5c32636acda76715249f03bd0f2532198da6c6cc13623c8b992d25eb52
+    uuid: "npm:^11.1.0"
+  checksum: 10/824760e66b8d58a327c985ec18f9670ba3987c39c3b87e2d69896f3f2909c391ebda29db19a8a2764b7fe9fade174e4a449a383500fcc6fde6ea46daa3333734
   languageName: node
   linkType: hard
 
@@ -9169,7 +9169,7 @@ __metadata:
     amqp-connection-manager: "npm:4.1.14"
     amqplib: "npm:0.10.8"
     aws-sdk-client-mock: "npm:4.1.0"
-    bullmq: "npm:^5.56.0"
+    bullmq: "npm:^5.59.0"
     cache-manager: "npm:6.4.1"
     cookie-parser: "npm:1.4.7"
     csv-stringify: "npm:^6.5.2"
@@ -10411,7 +10411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^11.0.5":
+"uuid@npm:^11.0.5, uuid@npm:^11.1.0":
   version: 11.1.0
   resolution: "uuid@npm:11.1.0"
   bin:
@@ -10420,7 +10420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^9.0.0, uuid@npm:^9.0.1":
+"uuid@npm:^9.0.1":
   version: 9.0.1
   resolution: "uuid@npm:9.0.1"
   bin:
